@@ -1,0 +1,172 @@
+/*Cuando quiera aplicar un mismo estilo a todos los elementos utilizo *
+  Cuando defino el estilo utilizo {} */
+
+*{
+	padding: 0; 
+	margin: 0;
+}  
+
+/*Para ver si los elementos estan bien alineado
+debo usar border: solid 1px*/
+
+/*Para manipular etiqueta escribo su nombre*/
+body{
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+
+	}
+	
+header{	
+	
+	color: white;
+	height: 100vh;
+	background-image: url(img/bradcam.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%
+
+}
+
+/*Para manipular id utilizo #*/
+
+#main-container #menu{
+	/*padding sirve para dar espacio entre los elementos*/
+	padding: 50px 0;
+
+}
+
+header #menu ul{
+	margin: 0;
+	padding: 0;
+}
+
+
+header #menu ul li{
+ 	/*Para que los elementos esten en la misma linea uso la propiedad dispaly e inline block*/
+ 	display: inline-block;
+ 	vertical-align: middle;
+ 	padding: 10px
+}
+
+/*Para sacar el punto del elemento utilizo el comando text-decoration:none*/
+header #menu ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+/*Para cuando el cursor pase por sobre el link y se subraye debo poner:*/
+header #menu ul li a:hover{
+	text-decoration: underline;
+}
+
+header #menu ul #logo{
+	margin-right: 40%;
+	margin-left: 100px;
+
+}
+
+/**********************************************************/
+
+/*Para centrar el contenido utilizo*/
+ 
+#main-container header main{
+	margin: 0 auto;
+	width: 1400px;
+}
+
+/*Para que salga en dos columnas utilizo*/
+
+#main-container header main div{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#main-container header main .text h1{
+		font-size: 80px
+}
+
+#main-container header main .text p{
+		padding: 20px 0;
+		font-size: 24px
+}
+
+button{
+	
+	background-color: #24d9e6;
+	color: white;
+	border: 0;
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 20px 25px;
+	margin:40px 0;
+	font-size: 24px
+
+}
+
+button:hover{
+	background-color: #14929b
+}	
+
+#main-container header main .image{
+	text-align: right;
+	width: 700px
+}
+
+
+/*Para manipular clase utilizo .*/
+
+.text{
+
+
+}
+
+/**********************************************************/
+
+.layout{
+	width: 1280px;
+	margin:250px auto;
+}
+
+.layout div{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.layout h3{
+	padding: 25px 0;
+	font-size: 48px
+}
+
+.layout p{
+	line-height:32px ;
+	padding: 25px 0;
+
+}
+
+.layout-left .text{
+	width: 500px;
+}
+
+.layout-left .image{
+	width: 770px;
+	text-align: right;
+	float:right;
+}
+
+.layout-right .text{
+	width: 500px;
+
+}
+
+.layout-right .image{
+	width: 770px;
+	text-align: center;
+}
+
+footer{
+	background-color: black;
+	padding:150px 20px;
+	color: white;
+	text-align: center;
+
+}

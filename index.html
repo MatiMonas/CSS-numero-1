@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Raquelin Te Amo</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+	<!-- El div es donde yo pongo el contenido que sale en la pagina. 
+	 Para darle nombre tengo que ponerle un id asi despues lo puedo referenciar
+	 en otras secciones.-->
+	 <!-- La etiqueta HEADER es para seccionar la parte donde se coloca el logo del sitio, menu o una introducción. Esta tiene que llevar otra capa de DIV-->
+
+	<div id="main-container"> 
+		<header>			
+			<div id="menu"> <!-- En el id de menu para hacer una lista de capa debo utilizar la etiqueta UL "unorder list" ydentro de ella colo LI "line item"-->
+				<ul>
+					<li id="logo">
+						<a href="#">
+							<img src="img/logo.png" />						
+						</a>
+					</li>
+					
+					<li><a href="#home">Home</a></li>
+					<li><a href="#features">Features</a></li>
+				</ul>
+			</div>
+			<!-- Etiqueta main se basa en su significado más que en algo que represente visualmente. Representa el contenido principal del sitio -->
+			<main>
+				<div class="text">
+					<!-- etiqueta h1 significa headline. El numero representa el tamaño. De 1 a 6 puede ser-->
+					<h1>Mi Primera app!</h1>  
+					<!-- La etiqueta P es parrafo, para poner una breve descripcion -->
+					<p>
+						 Conoce la mejor aplicación para gestionar cursos
+					</p>
+					
+					<p>
+						<button>Empezar ahora</button>
+					</p>
+				</div>
+
+				<div class="image">
+					<img src="img/phone.png" width="450" />
+					
+				</div>				
+			</main>			
+		</header>
+
+		<div class="section" id="features">
+			<div class="layout layout-left">
+				<div class="text">
+					<h3>Funcionalidades que de verdad sirven</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus itaque hic dolor tempore commodi possimus, harum modi quis animi ratione doloremque pariatur fuga dignissimos quam. Magnam earum ducimus ipsam magni!</p>
+				</div>				
+				<div class="image">
+					<img src="img/draw.png">			
+				</div>			
+			</div>
+
+			<div class="layout layout-right">
+				<div class="image">
+					<img src="img/mobile_screen.png" />
+				</div>
+				<div class="text" id="culo">
+					<h3>Funcionalidades que de verdad sirve</h3>
+					<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Veniam, architecto? Aut, labore ut distinctio odit quas magni fugiat dicta enim exercitationem quod inventore tenetur illo officiis cum nemo porro hic?</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="section" id="contact">
+			
+
+		</div>
+
+		<footer>
+			Vida MMR © Derechos reservados
+		</footer>
+
+
+
+		
+	</div>
+
+
+
+</body>
+</html>
